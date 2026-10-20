@@ -1,0 +1,37 @@
+
+INSERT INTO products (id, name, category, price, description, color, is_drink, badge, is_merch, sort_order) VALUES
+  ('p1', 'Free Upsize Large', 'Promo & Combo', 17000, 'Gratis upsize ke ukuran Large untuk minuman pilihan.', '#6B3E26', TRUE, 'GRATIS UPSIZE', FALSE, 1),
+  ('p2', 'Buy 2 Disc 25%', 'Promo & Combo', 28500, 'Beli 2 minuman Purple Cloud Series diskon 25%.', '#B58BE0', TRUE, NULL, FALSE, 2),
+  ('p3', '2 KMN Hanya', 'Promo & Combo', 29900, 'Dua Es Kopi Mantan hanya Rp29.900. Promo Delivery.', '#E8C9A0', TRUE, 'Promo Delivery', FALSE, 3),
+  ('n1', 'Taro Cloud Matcha', 'Baru!', 22000, 'Matcha creamy dengan cloud taro di atasnya.', '#8FC26B', TRUE, 'New', FALSE, 4),
+  ('n2', 'Taro Milk', 'Baru!', 19000, 'Susu taro lembut dengan cloud ungu.', '#B58BE0', TRUE, 'New', FALSE, 5),
+  ('n3', 'Taro Cloud Latte', 'Baru!', 24000, 'Espresso, susu, dan cloud taro.', '#B58BE0', TRUE, 'New', FALSE, 6),
+  ('n4', 'Taro Cloud Coffee', 'Baru!', 25000, 'Kopi susu dengan cloud taro.', '#B77B4B', TRUE, 'New', FALSE, 7),
+  ('c1', 'Butterscotch Sea Salt Latte Ice Mantan Blend Milk', 'Coffee', 29000, 'Espresso Mantan Blend, susu, sirup butterscotch dan sea salt cream.', '#E9A04B', TRUE, NULL, FALSE, 8),
+  ('c2', 'Es Kopi Mantan Blend', 'Coffee', 22000, 'Kopi susu khas Kopi Mantan dengan gula aren.', '#B77B4B', TRUE, NULL, FALSE, 9),
+  ('c3', 'Americano', 'Coffee', 18000, 'Espresso dengan air, segar dan tegas.', '#6B3E26', TRUE, NULL, FALSE, 10),
+  ('c4', 'Caramel Macchiato', 'Coffee', 28000, 'Espresso, susu, dan saus karamel.', '#E9A04B', TRUE, NULL, FALSE, 11),
+  ('c5', 'Cappuccino', 'Coffee', 26000, 'Espresso dengan foam susu tebal.', '#E8C9A0', TRUE, NULL, FALSE, 12),
+  ('c6', 'Kopi Susu Aren', 'Coffee', 24000, 'Kopi susu dengan gula aren asli.', '#B77B4B', TRUE, NULL, FALSE, 13),
+  ('s1', 'Chocolate', 'Non Coffee', 25000, 'Cokelat pekat dengan susu segar.', '#7A4A33', TRUE, NULL, FALSE, 14),
+  ('s2', 'Matcha Latte', 'Non Coffee', 27000, 'Matcha premium dengan susu.', '#8FC26B', TRUE, NULL, FALSE, 15),
+  ('s3', 'Red Velvet', 'Non Coffee', 26000, 'Red velvet creamy manis lembut.', '#E88BA0', TRUE, NULL, FALSE, 16),
+  ('s4', 'Thai Tea', 'Non Coffee', 22000, 'Teh Thailand klasik dengan susu.', '#E9A04B', TRUE, NULL, FALSE, 17),
+  ('t1', 'Choco Cheese Toast', 'Kenangan Toast', 18000, 'Roti panggang isi cokelat dan keju.', '#7A4A33', FALSE, NULL, FALSE, 18),
+  ('t2', 'Beef Cheese Toast', 'Kenangan Toast', 24000, 'Roti panggang isi beef dan keju leleh.', '#E9A04B', FALSE, NULL, FALSE, 19),
+  ('t3', 'Egg Mayo Toast', 'Kenangan Toast', 20000, 'Roti panggang isi telur mayo.', '#E8C9A0', FALSE, NULL, FALSE, 20),
+  ('b1', 'Crispy Chicken Burger', 'Chicken & Burger', 32000, 'Burger dengan ayam crispy dan saus spesial.', '#E9A04B', FALSE, NULL, FALSE, 21),
+  ('b2', 'Chicken Rice Bowl', 'Chicken & Burger', 28000, 'Nasi dengan ayam krispi dan saus teriyaki.', '#B77B4B', FALSE, NULL, FALSE, 22),
+  ('b3', 'Fried Chicken 2 pcs', 'Chicken & Burger', 30000, 'Dua potong ayam goreng renyah.', '#E9A04B', FALSE, NULL, FALSE, 23),
+  ('m1', 'Tumbler Mantan 500ml', 'Merch', 89000, 'Tumbler stainless tahan panas dan dingin.', '#6B3E26', FALSE, NULL, TRUE, 24),
+  ('m2', 'Totebag Mantan', 'Merch', 59000, 'Totebag kanvas dengan logo hati.', '#E8C9A0', FALSE, NULL, TRUE, 25),
+  ('m3', 'Mug Keramik Mantan', 'Merch', 75000, 'Mug keramik cantik untuk ngopi di rumah.', '#E88BA0', FALSE, NULL, TRUE, 26),
+  ('m4', 'Topi Mantan', 'Merch', 99000, 'Topi baseball bordir logo Kopi Mantan.', '#BD1E26', FALSE, NULL, TRUE, 27);
+
+INSERT INTO outlets (name, address, distance, hours, delivery, pickup, drive, sort_order) VALUES
+  ('Royal Plaza Surabaya', 'Royal Plaza Surabaya, LG, Jl. Ahmad Yani No. 16-18, Ketintang, Gayungan, Surabaya', '436.5 M', '08.00 - 22.00', TRUE, TRUE, FALSE, 1),
+  ('Ketintang UNESA', 'Ketintang UNESA, Ketintang, Unesa Ketintang, Surabaya', '869.7 M', '07.00 - 22.00', TRUE, TRUE, FALSE, 2),
+  ('Adityawarman Surabaya', 'Jl. Adityawarman No. 12, Tegalsari, Surabaya', '1.2 KM', '08.00 - 22.00', TRUE, TRUE, TRUE, 3),
+  ('Pakuwon Mall Surabaya', 'Pakuwon Mall, LG, Jl. Puncak Indah Lontar No.2, Surabaya', '3.1 KM', '10.00 - 22.00', TRUE, TRUE, FALSE, 4),
+  ('Tunjungan Plaza 6', 'Tunjungan Plaza 6, GF, Jl. Basuki Rahmat No. 8-12, Surabaya', '4.5 KM', '10.00 - 22.00', FALSE, TRUE, FALSE, 5),
+  ('Galaxy Mall 3', 'Galaxy Mall 3, GF, Jl. Dharmahusada Indah Timur No.35, Surabaya', '6.2 KM', '10.00 - 22.00', TRUE, TRUE, TRUE, 6);
